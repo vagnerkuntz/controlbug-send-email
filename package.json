@@ -1,0 +1,25 @@
+{
+  "name": "controlbug-send-email",
+  "version": "1.0.0",
+  "description": "- Rota para disparar os e-mails quando houver um erro.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagnerkuntz/controlbug-send-email.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vagnerkuntz/controlbug-send-email/issues"
+  },
+  "homepage": "https://github.com/vagnerkuntz/controlbug-send-email#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mailtrap": "^3.0.0",
+    "nodemailer": "^6.7.5"
+  }
+}
